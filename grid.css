@@ -24,25 +24,23 @@ main {
 } */
 
 .row1 {
+  margin-bottom: 10px;
   display: grid;
-  grid-template-columns: 100px 80px;
-  grid-template-rows: 3rem;
+  grid-template-columns: 9rem 7rem;
+  grid-template-rows: 5rem;
   gap: 10px;
 }
 .row2 {
   display: grid;
-  grid-template-columns: 80px 100px;
-  grid-template-rows: auto auto;
+  grid-template-columns: 7rem 9rem;
+  grid-template-rows: 2.5rem 2.5rem;
   gap: 10px;
 }
 .grid-container {
   background-color: #1a1c28;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
 }
-.red,
-.yellow {
-  /* height: 5rem; */
-}
+
 .red {
   background-color: #eb5020;
 }
